@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg,#da7d04,#83ed0b);
+  }
+  h1
+  {
+    text-align: center;
+    font-size: 50px;
+    font-family:cursive;
+    font-weight: 200;
+    text-shadow: 2px 4px 4px rgb(246, 19, 19);
+    
+  }
+ 
+  img 
+  {
+    width:40px;
+    border-radius: 10px;
+  }
+ 
+  #app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+    
+  }
+  
+  .note {
+   height: 200px;
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    resize: none;
+    font-family: cursive;
+    font-size: 16px;
+    text-shadow: 2px 4px 4px rgb(255, 127, 47);
+    color: blue;
+    border-color: violet;
+    background-color: #ee165a;
+    flex-wrap: wrap;
+      display: flex;
+      padding-top: 13rem;
+      position: relative;
+      background-image: url("./images/notebg.png");
+      background-repeat: no-repeat;
+      height: 100%;
+      text-shadow: 2px 4px 4px rgb(255, 127, 47);
+  }
+
+  .note:hover
+  {
+    background-color: blanchedalmond;
+  }
+  
+  .add-note {
+    height: 280px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background 0.2s;
+    text-shadow: 2px 4px 4px brown;
+  }
+  
+  .add-note:hover {
+    background: #0a21b5f1;
+  }
+  
